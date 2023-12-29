@@ -1,14 +1,17 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import styled from 'styled-components'
+
+const Wrapper = styled.div`
+font-family: 'Lato', sans-serif;
+`
 
 const App = () => {
 
   return (
-    <div>
+    <Wrapper>
       Hellow
-    </div>
+    </Wrapper>
   )
 }
 

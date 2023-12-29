@@ -14,5 +14,12 @@ const config = {
   docs: {
     autodocs: "tag",
   },
+  managerHead: (head) => `
+    ${head}
+    <link rel="icon" type="image/png" href="/public/favicon.ico" sizes="192x192">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display&display=swap" rel="stylesheet">
+  `,
 };
 export default config;

@@ -1,10 +1,15 @@
 import React from 'react';
+import styled from 'styled-components';
+
+const ButtonComponent = styled.button`
+  font-family: 'Lato', sans-serif;
+`
 
 export const Button = () => {
   return (
-    <button>
+    <ButtonComponent>
       dfsd
-    </button>
+    </ButtonComponent>
   );
 };
 export default Button
